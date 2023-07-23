@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Crafted for Universities, Colleges and Schools"
-                paragraph="The main ‘thrust’ is to focus on creating a complaint management system on which you can relay on. Give voice to the students of your college with Campus Careline."
+                paragraph="The main thrust is to focus on creating a complaint management system on which you can relay on. Give voice to the students of your college with Campus Careline."
                 mb="44px"
               />
 

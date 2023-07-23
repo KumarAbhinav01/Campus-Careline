@@ -29,7 +29,7 @@ const NewsLatterBox = () => {
           className="duration-80 mb-4 w-full cursor-pointer rounded-md border border-transparent bg-primary py-3 px-6 text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-opacity-80 hover:shadow-signUp focus-visible:shadow-none"
         />
         <p className="text-center text-base font-medium leading-relaxed text-body-color">
-          We don't spam, So you don’t have to worry.
+          We dont spam, So you dont have to worry.
         </p>
       </form>
       <div className="absolute top-0 left-0 z-[-1]">
