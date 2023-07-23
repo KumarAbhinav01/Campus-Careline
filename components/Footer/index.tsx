@@ -29,8 +29,9 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                At Campus Careline, we are committed to providing an exceptional user experience and enabling seamless 
-                communication between students, faculty, and administration.
+                  At Campus Careline, we are committed to providing an
+                  exceptional user experience and enabling seamless
+                  communication between students, faculty, and administration.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -100,31 +101,28 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Blog{" "}
-                    </a>
+                      Home
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Pricing{" "}
-                    </a>
+                      About
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      About{" "}
-                    </a>
+                      Contact
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -133,35 +131,35 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Demos
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      href="https://campus-careline-demo1.vercel.app/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      TOS{" "}
-                    </a>
+                      Demo 1{" "}
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Privacy Policy{" "}
-                    </a>
+                      Upcoming (Demo 2){" "}
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Refund Policy{" "}
-                    </a>
+                      Upcoming (Demo 3){" "}
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -174,31 +172,31 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>
-                    <a
-                      href="/"
+                    <Link
+                      href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
                       Open Support Ticket{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
                       Terms of Use{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
-                    </a>
+                      Privacy Policy{" "}
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -208,7 +206,10 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-            © 2023 | Website by <a href="https://abhi6722.in" rel="nofollow noopener">Abhi</a>
+              © 2023 | Website by{" "}
+              <a href="https://abhi6722.in" rel="nofollow noopener">
+                Abhi
+              </a>
             </p>
           </div>
         </div>
