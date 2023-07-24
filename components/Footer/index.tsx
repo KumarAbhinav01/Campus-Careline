@@ -206,7 +206,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              © 2023 | Website by{" "}
+              © 2023 | Made with 💛 by{" "}
               <a href="https://abhi6722.in" rel="nofollow noopener">
                 Abhi
               </a>
