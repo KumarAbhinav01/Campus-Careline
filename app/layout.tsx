@@ -6,15 +6,23 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import dynamic from 'next/dynamic'
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+
+  const CrispWithNoSSR = dynamic(
+    () => import('../components/crisp')
+  )
+  
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head > 
+       <CrispWithNoSSR />
+      </head>
       <body className="dark:bg-black">
         <Providers>
           <Header />
