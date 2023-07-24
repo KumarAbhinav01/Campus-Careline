@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Gallery from "./Gallery";
 
 const AboutSectionTwo = () => {
   return (
@@ -11,6 +12,8 @@ const AboutSectionTwo = () => {
                 src="/images/demo/demo2.png"
                 alt="about image 1"
                 className="w-auto h-auto rounded-lg mx-auto mb-8"
+                width={1200}
+                height={1000}
               />
           </div>
           <div className="px-4">
@@ -43,6 +46,7 @@ const AboutSectionTwo = () => {
             </div>
           </div>
         </div>
+        <Gallery />
       </div>
     </section>
   );
