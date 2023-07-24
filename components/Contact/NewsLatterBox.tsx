@@ -1,3 +1,5 @@
+import MailchimpForm from "./MailchimpForm";
+
 const NewsLatterBox = () => {
   return (
     <div
@@ -10,7 +12,7 @@ const NewsLatterBox = () => {
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
         If you want to be the first one to listen from us then subscribe now.
       </p>
-      <form>
+      {/* <form>
         <input
           type="text"
           name="name"
@@ -31,7 +33,9 @@ const NewsLatterBox = () => {
         <p className="text-center text-base font-medium leading-relaxed text-body-color">
           We dont spam, So you dont have to worry.
         </p>
-      </form>
+      </form> */}
+
+     <MailchimpForm />
       <div className="absolute top-0 left-0 z-[-1]">
         <svg
           width="370"
