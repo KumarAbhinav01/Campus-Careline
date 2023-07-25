@@ -153,6 +153,11 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <SignedIn>
+                  <Link href={'/dashboard'}>
+                    <button className="ease-in-up hidden rounded-md bg-primary mx-4 py-3 px-2 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9">
+                      Dashboard
+                    </button>
+                  </Link>
                   <UserButton />
                 </SignedIn>
                 <SignedOut>
